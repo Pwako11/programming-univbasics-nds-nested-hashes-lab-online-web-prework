@@ -22,7 +22,13 @@ def aoh_lookup(aoh, row, key)
 end
 
 def aoh_update(aoh, row, key, new_value)
+<<<<<<< HEAD
   aoh
   aoh[row][key] = new_value
   aoh
+=======
+   assembled_aoh = [DON_G, JOELLE_VD, PAT_M, KATE_G, BRUCE_G]
+  assembled_aoh[1][:name] = new_value 
+  aoh[row][key]
+>>>>>>> 43681564b46a8178c514acdc0835186394624851
 end
